@@ -1,0 +1,39 @@
+﻿body { 
+    width:inherit;
+	height:inherit;
+	vertical-align:middle;
+	align-items:center;
+	background: rgb(0,100,0) repeat-x;
+    background: -webkit-linear-gradient(rgb(0,100,0), white) repeat-x; 
+    background: -o-linear-gradient(rgb(0,100,0), white) repeat-x;
+    background: -moz-linear-gradient(rgb(0,100,0), white) repeat-x;
+    background: linear-gradient(rgb(0,100,0), white) repeat-x;
+}
+#container {
+    flex-align:center;
+    height:500px;
+    width:850px;
+    background:url(Images/login_background.jpg);   
+    margin-left:250px;
+    margin-right:250px;
+    margin-top:50px;
+    border:groove;
+    border-color:#fff;
+    border-width:10px;
+    flex-item-align:center;
+    color:white;
+}
+#container1 { 
+    item-align:center;
+    text-align:center;
+    background: rgb(0,50,100) repeat-x;
+    background: -webkit-linear-gradient(white,rgb(0,50,100)) repeat-x; 
+    background: -o-linear-gradient(white,rgb(0,50,100)) repeat-x;
+    background: -moz-linear-gradient(white,rgb(0,50,100)) repeat-x;
+    background: linear-gradient(white,rgb(0,50,100)) repeat-x;
+    height:230px;
+    width:420px;
+    border:solid;
+    border-color:white;
+    margin-left:190px;
+}
